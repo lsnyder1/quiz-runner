@@ -3,8 +3,10 @@
  */
 public class Question {
     protected String question;
-    protected String instructions;
 
+
+    public Question(String aQuestion){
+        this.question=aQuestion;
 
 
     public void setQuestion(String aQuestion){
@@ -13,8 +15,10 @@ public class Question {
     public String getQuestion(Question question){
         return this.question;
     }
-    public void setInstructions(String aInstruction){
-        this.instructions=aInstruction;
+
+    }
+
+
     }
 
 }
