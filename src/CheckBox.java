@@ -6,4 +6,16 @@ public class CheckBox extends Question{
     private int correctAnswer;
     private String allAnswers;
 
+    public CheckBox(String aQuestion,String aInstruction,int aCorrectAnswer){
+        super(aQuestion);
+        this.instructions=aInstruction;
+        this.correctAnswer=aCorrectAnswer;
+
+    }
+    public void setInstructions(String aInstruction){
+        this.instructions=aInstruction;
+    }
+    public getInstructions(String instructions){
+        return this.instructions;
+    }
 }
